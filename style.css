@@ -218,12 +218,23 @@ li a {
   margin-right: 15px;
 }
 
-p.bio {
-  /* display: flex; */
-  /* grid-template-columns: subgrid;  */
-  /* border: 2px solid black; */
-  /* grid-column-start: 5;
+.bio {
+  display: flex;
+  grid-template-columns: subgrid;
+  border: 2px solid black;
+  grid-column-start: 5;
   grid-column-end: 10;
   grid-row-start: 3;
-  grid-row-end: 8; */
+  grid-row-end: 8;
+}
+
+.contact_form {
+  display: grid;
+  grid-template-columns: subgrid;
+  border: 2px solid black;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  border-radius: 6px;
 }
